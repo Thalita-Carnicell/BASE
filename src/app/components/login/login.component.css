@@ -1,0 +1,61 @@
+.login-container {
+    background-image: url('/assets/image/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+  }
+  
+  #E-MAIL{
+  width: 30vh;
+  padding: 4%;
+  outline: none;
+  border: 3px solid #333;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #C1DD46;
+  font-size: clamp(8px, 5vw, 1rem);
+  box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
+  background-color: #333;
+  }
+  #SENHA {
+    width: 30vh;
+    padding: 4%;
+    outline: none;
+    border: 3px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #C1DD46;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
+    background-color: #333;
+    }
+  
+  .espaco{
+    margin-top: 20px;
+  }
+  .entrar{
+    width: 10vh;
+    padding: 4%;
+    outline: none;
+    border: 3px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #C1DD46;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
+    margin-top: 20px;
+    background-color: #333;
+    }
+  #logo{
+    background-image: url('/assets/image/logo2.png');
+    background-size: cover;
+    width: 50vh;
+    height: 50vh;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    background-position: center center;
+  }
